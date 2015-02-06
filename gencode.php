@@ -16,7 +16,6 @@ if (isset($_REQUEST['ext'])) {
 	$ext = 300;
 }
 
-$ext = 300;
 $user = core_users_get($ext);
 $dev = core_devices_get($ext);
 
